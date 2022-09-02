@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/RomaSamkov/goit-nodejs-hw-01-CLI/issues"
   },
-  "homepage": "https://github.com/RomaSamkov/goit-nodejs-hw-01-CLI#readme"
+  "homepage": "https://github.com/RomaSamkov/goit-nodejs-hw-01-CLI#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
 }
