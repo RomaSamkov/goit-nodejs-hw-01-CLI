@@ -50,4 +50,10 @@ async function invokeAction({ action, id, name, email, phone }) {
   }
 }
 
-invokeAction(argv);
+(async () => {
+  try {
+    await invokeAction(argv);
+  } catch (error) {
+    console.log(error.message);
+  }
+})();
